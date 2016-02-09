@@ -1,3 +1,7 @@
+/* ====================
+   Mobile
+   ==================== */
+
 /* General */
 
 * {
@@ -15,16 +19,17 @@ body {
   margin: 0;
 }
 
+
 /* Layout */
 
 header {
   padding: 0 10px 20px;
-
 }
 
 section {
   padding: 20px 10px;
 }
+
 
 /* Footer */
 
@@ -44,6 +49,7 @@ footer nav ul li {
 footer nav ul li:not(.mobile-only) {
   display: none;
 }
+
 
 /* Typography */
 
@@ -90,6 +96,7 @@ nav ul li {
   text-align: center;
 }
 
+
 /* Elements */
 
 img {
@@ -105,7 +112,10 @@ img {
   background: #fff;
 }
 
-/* Tablets */
+
+/* ====================
+   Tablets
+   ==================== */
 
 @media screen and (min-width: 768px) {
   /* Footer */
@@ -114,11 +124,13 @@ img {
     display: inline-block;
   }
 
+
   /* Typography */
 
   .section-title {
     flex: 1 1 100%;
   }
+
 
   /* Navigation */
 
@@ -131,6 +143,7 @@ img {
     background: none;
     padding: 10px 20px;
   }
+
 
   /* About */
 
@@ -149,6 +162,7 @@ img {
     order: 1;
   }
 
+
   /* Portfolio */
 
   .portfolio {
@@ -164,12 +178,14 @@ img {
     padding: 0 10px;
   }
 
+
   /* Contact */
 
   .contact__pitch {
     width: 60%;
     margin: 0 auto;
   }
+
 
   /* Overrides */
 
@@ -178,7 +194,9 @@ img {
   }
 }
 
-/* Desktop */
+/* ====================
+   Desktop
+   ==================== */
 
 @media screen and (min-width: 1024px) {
   /* Typography */
@@ -187,11 +205,13 @@ img {
     padding-bottom: 20px;
   }
 
+
   /* Portfolio */
 
   .project {
     flex: 1 1 33%;
   }
+
 
   /* Contact */
 
