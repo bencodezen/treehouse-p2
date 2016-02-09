@@ -18,53 +18,60 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="about">
         <img src="img/profile.png" alt="My profile picture">
         <p>Hi! I'm a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </section>
       <section id="portfolio" class="portfolio">
         <h2 class="section-title">Portfolio</h2>
-        <article>
+        <article class="project">
           <img src="img/portfolio-1.png" alt="Marketing Page Screenshot">
           <h3>Marketing Page</h3>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          <p class="project__description">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
         </article>
-        <article>
+        <article class="project">
           <img src="img/portfolio-2.png" alt="Search Page Screenshot">
           <h3>Search Page</h3>
-          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          <p class="project__description">This project searches through a specific database to find information that the user is trying to look up.</p>
         </article>
-        <article>
+        <article class="project">
           <img src="img/portfolio-4.png" alt="Travel App Screenshot">
           <h3>Travel App</h3>
-          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          <p class="project__description">This project compares travel times based on different transportation methods and tells you the best one.</p>
         </article>
-        <article>
+        <article class="project">
           <img src="img/portfolio-5.png" alt="Map of Favorite Spots Screenshot">
           <h3>Map of Favorite Spots</h3>
-          <p>This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          <p class="project__description">This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
         </article>
-        <article>
+        <article class="project">
           <img src="img/portfolio-6.png" alt="Photo Gallery Screenshot">
           <h3>Photo Gallery</h3>
-          <p>This project shows pictures from a recent trip to the veiwer and allows them to easily navigate through photos.</p>
+          <p class="project__description">This project shows pictures from a recent trip to the veiwer and allows them to easily navigate through photos.</p>
         </article>
-        <article>
+        <article class="project">
           <img src="img/portfolio-7.png" alt="Calculator Screenshot">
           <h3>Calculator</h3>
-          <p>Someone can enter in the number they want, and press the big blue button and get the result.</p>
+          <p class="project__description">Someone can enter in the number they want, and press the big blue button and get the result.</p>
         </article>
       </section>
-      <section id="contact" class=>
+      <section id="contact" class="contact">
         <h2 class="section-title">Contact</h2>
-        <p>If you're intered in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p class="contact__pitch">If you're intered in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
         <p>Phone: <a href="tel:1.111.555.1234">+1 (111) 555-1234</a></p>
         <p>Email: <a href="mailto:ben@demosite.com">ben@demosite.com</a></p>
       </section>
     </main>
     <footer>
       <p><b>Benjamin Hong</b></p>
-      <a href="#">Back to Top</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="mobile-only"><a href="#">Back to Top</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

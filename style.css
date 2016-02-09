@@ -26,6 +26,8 @@ section {
   padding: 20px 10px;
 }
 
+/* Footer */
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -33,6 +35,14 @@ footer {
   border-top: 1px solid #8c8b8b;
   padding: 0 10px;
   font-size: 0.9em;
+}
+
+footer nav ul li {
+  background: none;
+}
+
+footer nav ul li:not(.mobile-only) {
+  display: none;
 }
 
 /* Typography */
@@ -88,8 +98,82 @@ img {
   margin: 0 auto;
 }
 
+
 /* Portfolio */
 
 .portfolio {
   background: #fff;
+}
+
+/* Tablets */
+
+@media screen and (min-width: 768px) {
+  /* Footer */
+
+  footer nav ul li:not(.mobile-only) {
+    display: inline-block;
+  }
+
+  /* Typography */
+
+  .section-title {
+    flex: 1 1 100%;
+  }
+
+  /* Navigation */
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul li {
+    background: none;
+    padding: 10px 20px;
+  }
+
+  /* About */
+
+  .about {
+    display: flex;
+    align-items: center;
+  }
+
+  .about p {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .about img {
+    width: 40%;
+    order: 1;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    flex: 1 1 50%;
+  }
+
+  .project__description {
+    padding: 0 10px;
+  }
+
+  /* Contact */
+
+  .contact__pitch {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Overrides */
+
+  .mobile-only {
+    display: none;
+  }
 }
