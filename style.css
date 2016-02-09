@@ -118,6 +118,13 @@ img {
    ==================== */
 
 @media screen and (min-width: 768px) {
+  /* Layout */
+
+  header {
+    padding-bottom: 0;
+  }
+
+
   /* Footer */
 
   footer nav ul li:not(.mobile-only) {
