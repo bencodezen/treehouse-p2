@@ -177,3 +177,25 @@ img {
     display: none;
   }
 }
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  /* Typography */
+
+  .section-title {
+    padding-bottom: 20px;
+  }
+
+  /* Portfolio */
+
+  .project {
+    flex: 1 1 33%;
+  }
+
+  /* Contact */
+
+  .contact__pitch {
+    width: 45%;
+  }
+}
