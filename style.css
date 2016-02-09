@@ -121,9 +121,15 @@ img {
   /* Layout */
 
   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 0;
   }
 
+  header h1 {
+    padding-left: 10px;
+  }
 
   /* Footer */
 
