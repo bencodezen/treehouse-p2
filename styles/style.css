@@ -136,6 +136,13 @@ img {
 }
 
 
+/* Contact */
+
+.contact {
+  background: #fff;
+}
+
+
 /* ====================
    Tablets
    ==================== */
@@ -229,6 +236,22 @@ img {
     padding: 0 10px;
   }
 
+
+  /* Values */
+
+  .values {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .values h2 {
+    flex: 1 1 100%;
+  }
+
+  .value {
+    flex: 1 1 33%;
+    padding: 0 10px;
+  }
 
   /* Contact */
 
